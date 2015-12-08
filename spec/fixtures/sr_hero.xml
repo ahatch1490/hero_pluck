@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document>
+    <public>
+        <program name="Hero Lab" url="http://www.wolflair.com">
+            <programinfo>Hero Lab and the Hero Lab logo are Registered Trademarks of LWD Technology, Inc. Free download at http://www.wolflair.com
+Shadowrun © 2005-2015 The Topps Company, Inc. All rights reserved. Shadowrun is a registered trademark of The Topps Company, Inc.</programinfo>
+            <version version="7.3" primary="7" secondary="3" tertiary="" build="573"></version>
+        </program>
+        <localization language="eng" units="metric"></localization>
+        <character active="yes" nature="normal" role="npc" relationship="enemy" type="Hero" name="Island Guard" playername="">
+            <race name="Human"></race>
+            <heritage name="Mundane"></heritage>
+            <creation>
+                <bp total="400" left="152">
+                    <spent text="248 BP" value="248"></spent>
+                </bp>
+            </creation>
+            <karma total="0" left="0"></karma>
+            <cash total="1000"></cash>
+            <personal gender="Male" age="25" hair="" eyes="" skin="">
+                <description></description>
+                <charheight text="1.75m" value="175"></charheight>
+                <charweight text="78kg" value="78"></charweight>
+            </personal>
+            <defenses>
+                <defense name="Ranged Defense" normal="6" full="9"></defense>
+                <defense name="Melee Dodge" normal="9" full="12"></defense>
+            </defenses>
+            <armorratings>
+                <armorrating name="Ballistic Armor" rating="9" stacking="1" nonstacking="8" dicepool="15"></armorrating>
+                <armorrating name="Impact Armor" rating="6" stacking="0" nonstacking="6" dicepool="12"></armorrating>
+                <armorrating name="Acid Protection" rating="3" stacking="3" nonstacking="0" dicepool="9"></armorrating>
+                <armorrating name="Cold Protection" rating="3" stacking="3" nonstacking="0" dicepool="9"></armorrating>
+                <armorrating name="Electricity Protection" rating="3" stacking="3" nonstacking="0" dicepool="9"></armorrating>
+                <armorrating name="Falling Protection" rating="3" stacking="3" nonstacking="0" dicepool="9"></armorrating>
+                <armorrating name="Fire Protection" rating="3" stacking="3" nonstacking="0" dicepool="9"></armorrating>
+                <armorrating name="Gauss Round Armor" rating="4" stacking="4" nonstacking="0" dicepool="10"></armorrating>
+                <armorrating name="Laser Protection" rating="3" stacking="3" nonstacking="0" dicepool="9"></armorrating>
+            </armorratings>
+            <attributes>
+                <attribute name="Body" text="4/5" base="4" modified="5" naturalmaximum="6" augmentedmaximum="9" minimum="1" category="Physical">
+                    <description>The Body attribute determines a character's resistance to outside forces. It represents the character's cardiovascular fitness and endurance, immune system, how well she heals, her tolerance for drugs and alcohol, and, to some extent, her muscle and bone structure and weight. Low Body could mean a character is skinny and frail-boned or has bad eating and health habits. High Body means a character is better fed, tough as nails, has strong bones with some spring to them, and an immune system that won't quit. Body does not necessarily correlate with physical size - a fat, out of shape character likely has a low Body, but a small character who is wiry and athletic may have a high Body.</description>
+                    <traitcost bp="30"></traitcost>
+                </attribute>
+                <attribute name="Agility" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="9" minimum="1" category="Physical">
+                    <description>Agility represents fine motor control - manual dexterity, flexibility, balance, and coordination. A character with a low Agility may be someone with an inner-ear problem, one leg that is shorter than the other, or a simple klutz. Higher Agility ratings may belong to characters that are "natural" athletes.</description>
+                    <traitcost bp="20"></traitcost>
+                </attribute>
+                <attribute name="Reaction" text="4/6" base="4" modified="6" naturalmaximum="6" augmentedmaximum="9" minimum="1" category="Physical">
+                    <description>A character's Reaction is, quite simply, her physical reflexes - how quickly she can react to a changing situation, and how well she can dodge the physical slings and arrows that shadowrunning brings. A character with a high Reaction is more likely to be on top of a situation and will be in a better position to react to danger, while low-Reaction characters will lag behind.</description>
+                    <traitcost bp="30"></traitcost>
+                </attribute>
+                <attribute name="Strength" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="9" minimum="1" category="Physical">
+                    <description>Strength denotes what a character's muscles can do, including things such as raw lifting power and running speed. Strength is somewhat dependent on a character's size and metatype. If your character is a 5'3" tall, 115-pound human girl, she's unlikely to possess an unaugmented Strength attribute of 6. On the other hand, dwarfs have a muscle density that rivals that of reptiles. Characters with low Strength may be small, skinny, or slight, or simply too busy to work out. A high- Strength character may be tough and wiry, know how to use her body to her best advantage, work out every day, or simply be fraggin' BIG.</description>
+                    <traitcost bp="20"></traitcost>
+                </attribute>
+                <attribute name="Charisma" text="2" base="2" modified="2" naturalmaximum="6" augmentedmaximum="9" minimum="1" category="Mental">
+                    <description>Charisma is a nebulous attribute. More than just looks, Charisma represents a character's personal aura, self-image, ego, willingness to find out what people want and give it to them, and ability to recognize what she can and can't get out of people. A whiny demeanor, a me-first attitude, or an inability to read body language or subtle hints are just a few traits that can give a character low Charisma. A character with high Charisma might simply enjoy entertaining others, may excel at making friends and/or manipulating people, or may be all flash and fun with whomever it is today. A high-Charisma character might deliver jokes at the right moment, have a sexy way of carrying herself, or command respect because her timing is always impeccable.</description>
+                    <traitcost bp="10"></traitcost>
+                </attribute>
+                <attribute name="Intuition" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="9" minimum="1" category="Mental">
+                    <description>Intuition covers "mental alertness" - the ability to take in and process information, to read a crowd, to assess a situation for danger or opportunity. A character with little Intuition may be unobservant, may rarely think things fully through, or could simply be "slow." A character with a high Intuition is adept at making the best of a bad situation, knowing when to leave before an encounter escalates, noticing small clues, and working from instinct.</description>
+                    <traitcost bp="20"></traitcost>
+                </attribute>
+                <attribute name="Logic" text="2" base="2" modified="2" naturalmaximum="6" augmentedmaximum="9" minimum="1" category="Mental">
+                    <description>Logic represents a character's memorizing ability and raw brainpower. It denotes how fast a character learns, how much she can remember, and how well she can execute pre-planned sequences. A Logic-lacking character might get overwhelmed when confronted with a lot of details and may have a poor memory - especially for facts and figures. Characters with a high Logic rating will likely be excellent book-learners, able to deal with computer and magic theory with ease, and capable of building (and tearing down!) machinery and electronics.</description>
+                    <traitcost bp="10"></traitcost>
+                </attribute>
+                <attribute name="Willpower" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="9" minimum="1" category="Mental">
+                    <description>Willpower keeps a character going when she wants to give up, or enables her to control her habits and emotions. Willpower determines whether or not a character is going to take charge of her life. A character with low Willpower might defer to other people when big decisions are being made, for example. A high-Willpower character is more assured and possesses a never-say-die streak. Such characters go down to the monowire because that's exactly the fragging point. Willpower also represents a character's cool under fire, her ability to resist intimidation and manipulation, and her resolve to stick to her guns when the pressure is on.</description>
+                    <traitcost bp="20"></traitcost>
+                </attribute>
+                <attribute name="Edge" text="2" base="2" modified="2" naturalmaximum="7" augmentedmaximum="10" minimum="1" category="Special">
+                    <description>A character's Edge represents that special something that can turn the tide and save the day - a successful gut check, a moment of brilliant inspiration or creativity, or a once-in-a-lifetime physical feat. Edge is a combination of luck, timing, and the favor of the gods. Characters with low Edge are unlikely to get unexpected breaks in life, much less win the lottery. A high-Edge character, however, is graced with good fortune and has an uncanny ability to succeed despite the odds. Edge can be spent at certain points in the game to help tip the odds in your character's favor. Unlike other attributes, Edge provides Edge points that may be spent in certain ways - once used, these points are not regained until certain in-game events occur, at the discretion of the gamemaster (see Edge, p. 74).</description>
+                    <traitcost bp="0"></traitcost>
+                </attribute>
+                <attribute name="Essence" text="1.5" base="2" modified="1.5" naturalmaximum="12" augmentedmaximum="18" minimum="0" category="Derived">
+                    <description>Essence is a measure of life force, of a body's wholeness. It represents the body's cohesiveness and holistic strength. Things that are invasive to the body, such as cyberware and bioware, reduce Essence. If a character abuses her body repeatedly with chemicals, toxins, or even just negligence over a long period of time, she may lose Essence as well. Long-time drug addicts and chipheads who have done permanent damage to their systems have lost Essence. Lost Essence can never be regained (short of the Essence Drain critter power). When Essence declines, Magic and Resonance decline by the same amount. All characters start the game with an Essence of 6.</description>
+                    <traitcost bp="0"></traitcost>
+                </attribute>
+                <attribute name="Initiative" text="7/9" base="7" modified="9" naturalmaximum="12" augmentedmaximum="18" minimum="2" category="Derived">
+                    <description>A derived attribute, Initiative is the sum of Reaction and Intuition, plus any additional dice from implanted or magical reflex enhancers. As it sounds, Initiative is used to make Initiative Tests (p. 144), which determine the character's Initiative Score for a Combat Turn. Any enhancements to Reaction and Intuition also affect Initiative.</description>
+                    <traitcost bp="-20"></traitcost>
+                </attribute>
+                <attribute name="Initiative Passes" text="1/2" base="1" modified="2" naturalmaximum="1" augmentedmaximum="5" minimum="0" category="Derived">
+                    <description>Some implants and magic may give a character extra actions to take in each Combat Turn. These are noted as extra Initiative Passes on the character's record sheet. The maximum number of Initiative Passes a character can have is 5, but most character types can only ever achieve 4.</description>
+                    <traitcost bp="0"></traitcost>
+                </attribute>
+            </attributes>
+            <movementtypes>
+                <movementtype name="Land Movement" sprintpool="2dicepool">
+                    <walking text="10m" value="10"></walking>
+                    <running text="25m" value="25"></running>
+                </movementtype>
+                <movementtype name="Swimming" sprintpool="2dicepool">
+                    <running text="5m" value="5"></running>
+                </movementtype>
+            </movementtypes>
+            <reputations>
+                <reputation name="Street Cred" value="0"></reputation>
+                <reputation name="Notoriety" value="0"></reputation>
+                <reputation name="Public Awareness" value="0"></reputation>
+            </reputations>
+            <qualities>
+                <positive>
+                    <quality name="Mundane">
+                        <description>The character has no capability at magic or technomancy and does not have the Magic or Resonance attributes.</description>
+                        <traitcost bp="0"></traitcost>
+                    </quality>
+                </positive>
+                <negative></negative>
+            </qualities>
+            <skills>
+                <groups>
+                    <skill name="Firearms Group" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="4">
+                        <addsskill name="Automatics"></addsskill>
+                        <addsskill name="Longarms"></addsskill>
+                        <addsskill name="Pistols"></addsskill>
+                        <description></description>
+                        <traitcost bp="30"></traitcost>
+                    </skill>
+                </groups>
+                <active>
+                    <skill name="Automatics" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="4" dicepool="6" group="Firearms Group" fromgroup="yes">
+                        <description>The Automatics skill governs the use of personal firearms larger than a pistol, capable of autofire, but typically with a shorter barrel than a longarm.</description>
+                        <traitcost bp="0"></traitcost>
+                    </skill>
+                    <skill name="Dodge" text="2/3" base="2" modified="3" naturalmaximum="6" augmentedmaximum="3" dicepool="9" group="">
+                        <description>Dodge governs your ability to move out of the way of a perceived attack or other incoming threat.</description>
+                        <traitcost bp="8"></traitcost>
+                    </skill>
+                    <skill name="Longarms" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="4" dicepool="6" group="Firearms Group" fromgroup="yes">
+                        <description>This skill governs the use of all personal firearms with extended barrels, especially those designed to be used braced against the shoulder.</description>
+                        <traitcost bp="0"></traitcost>
+                    </skill>
+                    <skill name="Pistols" text="3" base="3" modified="3" naturalmaximum="6" augmentedmaximum="4" dicepool="6" group="Firearms Group" fromgroup="yes">
+                        <description>The Pistols skill governs the use of all types of hand-held firearms, including hold-outs, light and heavy pistols, and tasers.</description>
+                        <traitcost bp="0"></traitcost>
+                    </skill>
+                    <skill name="Throwing Weapons" text="2" base="2" modified="2" naturalmaximum="6" augmentedmaximum="3" dicepool="5" group="">
+                        <description>The Throwing Weapons skill governs the use of any item thrown by the user.</description>
+                        <traitcost bp="8"></traitcost>
+                    </skill>
+                    <skill name="Unarmed Combat" text="4" base="4" modified="4" naturalmaximum="6" augmentedmaximum="6" dicepool="7" group="Close Combat Group">
+                        <description>Unarmed Combat skill (also known as hand-to-hand combat) governs the use of combat techniques based solely on the use of the individual's own body parts. In addition to Boxing, this skill covers such combat styles as Oriental martial arts and Brazilian Capoeira. It also covers the use of certain cyber-implants, such as shock hands.</description>
+                        <traitcost bp="16"></traitcost>
+                    </skill>
+                </active>
+                <knowledge></knowledge>
+                <language>
+                    <skill name="English" text="N" base="1" modified="1" naturalmaximum="6" augmentedmaximum="1" dicepool="4" group="">
+                        <description></description>
+                        <traitcost bp="0"></traitcost>
+                    </skill>
+                </language>
+            </skills>
+            <gear>
+                <augmentations>
+                    <cyberware>
+                        <item name="Ares Bodyguard" essencecost="4.5" rating="1" rfid="Present" wireless="Present">
+                            <description>Designed for police, law enforcement, security, and paramilitary groups, Ares’ Bodyguard Pro is a custom, designer cybersuite.  The technology integrated is subtle and focused, designed and calibrated to the needs of personal protection specialists. It provides everything a professional bodyguard needs to excel at his job with no dead weight or needless bells and whistles. It’s the best Damien Knight and Ares can provide—and their best isn’t cheap.
+
+• Crystal Optics Victory Actual cybereyes (Rating 3) with eye recording unit, flare compensation, image link, low-light vision, smartlink, vision enhancement (Rating 3), and vision magnification.
+• Cerebrotech KV92 cyberears (Rating 2) w/ audio enhancement (Rating 3), damper, ear recording unit, sound link, and spatial recognizer.
+• Cerebrotech MultiTask-Master iv33 attention coprocessor (Rating 2).
+• Cerebrotech Spitfire move-by-wire system (Rating 1).
+• Leviathan Technical Bulletproof kevlar bone lacing.
+• Leviathan Technical M302 customized (Agility 6, Body 6, Strength 6) synthetic cyberarm w/ armor (Rating 1), scanner system (Rating 4) and shock hand.</description>
+                            <gearcost text="107145¥" value="107145"></gearcost>
+                            <availability text="12F" value="12" class="Forbidden"></availability>
+                            <matrix>
+                                <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                            </matrix>
+                            <modifications></modifications>
+                            <accessories></accessories>
+                            <ammunition></ammunition>
+                            <programs></programs>
+                            <othergear></othergear>
+                        </item>
+                        <item name="Cerebrotech KV92 cyberears (Alphaware)" rating="2" useradded="no" rfid="Present" wireless="Present">
+                            <description>These implants usually just replace the inner ear (though sometimes the auricle as well, if the user desires), and offer perfect hearing within normal ranges. They include a sound link and an ear recording unit (at no extra cost), as well as capacity for various enhancement systems.</description>
+                            <gearcost text="0¥" value="0"></gearcost>
+                            <availability text="" value="0" class=""></availability>
+                            <matrix>
+                                <matrixattribute name="Signal" text="2" base="2" modified="2"></matrixattribute>
+                                <matrixattribute name="Response" text="2" base="2" modified="2"></matrixattribute>
+                                <matrixattribute name="System" text="2" base="2" modified="2"></matrixattribute>
+                                <matrixattribute name="Firewall" text="2" base="2" modified="2"></matrixattribute>
+                            </matrix>
+                            <modifications>
+                                <item name="Audio Enhancement (Alphaware)" rating="3" useradded="no" rfid="Present" wireless="Present">
+                                    <description>An implanted version of audio enhancement (p. 333).</description>
+                                    <gearcost text="0¥" value="0"></gearcost>
+                                    <availability text="" value="0" class=""></availability>
+                                    <matrix>
+                                        <matrixattribute name="Signal" text="3" base="3" modified="3"></matrixattribute>
+                                        <matrixattribute name="Response" text="3" base="3" modified="3"></matrixattribute>
+                                        <matrixattribute name="System" text="3" base="3" modified="3"></matrixattribute>
+                                        <matrixattribute name="Firewall" text="3" base="3" modified="3"></matrixattribute>
+                                    </matrix>
+                                    <modifications></modifications>
+                                    <accessories></accessories>
+                                    <ammunition></ammunition>
+                                    <programs></programs>
+                                    <othergear></othergear>
+                                </item>
+                                <item name="Damper (Alphaware)" rating="1" useradded="no" rfid="Present" wireless="Present">
+                                    <description>This implant protects the user from sudden increases in sound as well as damaging sound levels. The damper adds a +2 dice pool modifier to resisting sonic attacks.</description>
+                                    <gearcost text="0¥" value="0"></gearcost>
+                                    <availability text="" value="0" class=""></availability>
+                                    <matrix>
+                                        <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                                    </matrix>
+                                    <modifications></modifications>
+                                    <accessories></accessories>
+                                    <ammunition></ammunition>
+                                    <programs></programs>
+                                    <othergear></othergear>
+                                </item>
+                                <item name="Ear Recording Unit (Alphaware)" rating="1" useradded="no" rfid="Present" wireless="Present">
+                                    <description>The ear recording unit connects to the user's auditory nerves and records all data directly into unlimited data storage that can be accessed by the user's PAN. To prevent data theft, the user can also opt to make this storage only accessible by special means (datajack, etc.).</description>
+                                    <gearcost text="0¥" value="0"></gearcost>
+                                    <availability text="" value="0" class=""></availability>
+                                    <matrix>
+                                        <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                                    </matrix>
+                                    <modifications></modifications>
+                                    <accessories></accessories>
+                                    <ammunition></ammunition>
+                                    <programs></programs>
+                                    <othergear></othergear>
+                                </item>
+                                <item name="Sound Link (Alphaware)" rating="1" useradded="no" rfid="Present" wireless="Present">
+                                    <description>The sound link plays audio (recordings, movie soundtracks, music, etc.) from linked sources (PAN, datajack, etc.) directly into the user's (cyber)ears. Commonly used for AR sound.</description>
+                                    <gearcost text="0¥" value="0"></gearcost>
+                                    <availability text="" value="0" class=""></availability>
+                                    <matrix>
+                                        <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                                    </matrix>
+                                    <modifications></modifications>
+                                    <accessories></accessories>
+                                    <ammunition></ammunition>
+                                    <programs></programs>
+                                    <othergear></othergear>
+                                </item>
+                                <item name="Spatial Recognizer (Alphaware)" rating="1" useradded="no" rfid="Present" wireless="Present">
+                                    <description>An implanted version of the spatial recognizer enhancement (p. 333).</description>
+                                    <gearcost text="0¥" value="0"></gearcost>
+                                    <availability text="" value="0" class=""></availability>
+                                    <matrix>
+                                        <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                                    </matrix>
+                                    <modifications></modifications>
+                                    <accessories></accessories>
+                                    <ammunition></ammunition>
+                                    <programs></programs>
+                                    <othergear></othergear>
+                                </item>
+                            </modifications>
+                            <accessories></accessories>
+                            <ammunition></ammunition>
+                            <programs></programs>
+                            <othergear></othergear>
+                        </item>
+                        <item name="Cerebrotech MultiTask-Master iv33 attention coprocessor (Alphaware)" rating="2" useradded="no" rfid="Present" wireless="Present">
+                            <description>While hardware that allows true multi-tasking is still out of reach, this frontal cortex and limbic system implant enhances the brain's ability to scan sensory input outside of the person's primary mental focus. This boosts the character's continuous partial attention - the overall awareness of several ongoing things at once, and the ability to shift concentration to what's most important without losing track of what's happening in the background. In game terms, the attention coprocessor adds its rating as a dice pool modifier to Perception Tests (note that it does not aid Astral or Matrix Perception Tests).</description>
+                            <gearcost text="0¥" value="0"></gearcost>
+                            <availability text="" value="0" class=""></availability>
+                            <matrix>
+                                <matrixattribute name="Signal" text="2" base="2" modified="2"></matrixattribute>
+                                <matrixattribute name="Response" text="2" base="2" modified="2"></matrixattribute>
+                                <matrixattribute name="System" text="2" base="2" modified="2"></matrixattribute>
+                                <matrixattribute name="Firewall" text="2" base="2" modified="2"></matrixattribute>
+                            </matrix>
+                            <modifications></modifications>
+                            <accessories></accessories>
+                            <ammunition></ammunition>
+                            <programs></programs>
+                            <othergear></othergear>
+                        </item>
+                        <item name="Cerebrotech Spitfire move-by-wire system (Alphaware)" rating="1" useradded="no" rfid="Present" wireless="Present">
+                            <description>Move-by-wire-systems are the cutting- edge in motion control and reaction augmentation. They operate by putting the user's body in a constant state of seizure, so that it wishes to move in all directions simultaneously. An implanted expert system monitors the seizure and counteracts its effects until the user wishes to act. At that point, it channels the effects of the seizure along the desired path of motion, enabling the user to act with amazing speed and move with unnatural smoothness. The move-by-wire-system is based on similar systems used in aircraft, drone, and vehicle control and has proven to be highly effective - if sometimes debilitating to biological subjects. Move-by-wire users frequently suffer from slight, but uncontrollable, muscle tremors in certain muscle groups when they are at rest, mostly due to errors in the system's seizure compensation. The move-by-wire system confers a bonus of +2 to the character's Reaction attribute, +1 to the character's Dodge skill rating, and +1 Initiative Pass per point of rating. It also functions as skillwires (p. 335, SR4) at the following level: 
+
+Move-by-Wire-Rating: Skillwire Rating
+1: 2
+2: 4
+3: 5
+
+Move-by-wire cannot be combined with any other form of Initiative enhancement except for reaction enhancers.</description>
+                            <gearcost text="0¥" value="0"></gearcost>
+                            <availability text="" value="0" class=""></availability>
+                            <matrix>
+                                <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                            </matrix>
+                            <modifications></modifications>
+                            <accessories></accessories>
+                            <ammunition></ammunition>
+                            <programs></programs>
+                            <othergear></othergear>
+                        </item>
+                        <item name="Crystal Optics Victory Actual cybereyes (Alphaware)" rating="3" useradded="no" rfid="Present" wireless="Present">
+                            <description>This system offers 20/20 vision for both eyes and includes an image link and an eye recording unit (for no extra cost), as well as capacity for various enhancement systems.</description>
+                            <gearcost text="0¥" value="0"></gearcost>
+                            <availability text="" value="0" class=""></availability>
+                            <matrix>
+                                <matrixattribute name="Signal" text="3" base="3" modified="3"></matrixattribute>
+                                <matrixattribute name="Response" text="3" base="3" modified="3"></matrixattribute>
+                                <matrixattribute name="System" text="3" base="3" modified="3"></matrixattribute>
+                                <matrixattribute name="Firewall" text="3" base="3" modified="3"></matrixattribute>
+                            </matrix>
+                            <modifications>
+                                <item name="Eye Recording Unit (Alphaware)" rating="1" useradded="no" rfid="Present" wireless="Present">
+                                    <description>The eye recording unit connects to the user's optical nerves and records all data directly into attached storage (accessible by the user's PAN). To prevent data theft, the user can opt to make this storage only accessible by special means (sim module, datajack, etc.).</description>
+                                    <gearcost text="0¥" value="0"></gearcost>
+                                    <availability text="" value="0" class=""></availability>
+                                    <matrix>
+                                        <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                                    </matrix>
+                                    <modifications></modifications>
+                                    <accessories></accessories>
+                                    <ammunition></ammunition>
+                                    <programs></programs>
+                                    <othergear></othergear>
+                                </item>
+                                <item name="Flare Compensation (Alphaware)" rating="1" useradded="no" rfid="Present" wireless="Present">
+                                    <description>An implanted version of the flare compensation enhancement (p. 333).</description>
+                                    <gearcost text="0¥" value="0"></gearcost>
+                                    <availability text="" value="0" class=""></availability>
+                                    <matrix>
+                                        <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                                    </matrix>
+                                    <modifications></modifications>
+                                    <accessories></accessories>
+                                    <ammunition></ammunition>
+                                    <programs></programs>
+                                    <othergear></othergear>
+                                </item>
+                                <item name="Image Link (Alphaware)" rating="1" useradded="no" rfid="Present" wireless="Present">
+                                    <description>An implanted version of the image link enhancement (p. 333).</description>
+                                    <gearcost text="0¥" value="0"></gearcost>
+                                    <availability text="" value="0" class=""></availability>
+                                    <matrix>
+                                        <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                                    </matrix>
+                                    <modifications></modifications>
+                                    <accessories></accessories>
+                                    <ammunition></ammunition>
+                                    <programs></programs>
+                                    <othergear></othergear>
+                                </item>
+                                <item name="Low-Light Vision (Alphaware)" rating="1" useradded="no" rfid="Present" wireless="Present">
+                                    <description>This accessory allows the user to see normally in light levels as low as starlight. Total darkness still renders the user as blind as an unmodified person.</description>
+                                    <gearcost text="0¥" value="0"></gearcost>
+                                    <availability text="" value="0" class=""></availability>
+                                    <matrix>
+                                        <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                                    </matrix>
+                                    <modifications></modifications>
+                                    <accessories></accessories>
+                                    <ammunition></ammunition>
+                                    <programs></programs>
+                                    <othergear></othergear>
+                                </item>
+                                <item name="Smartlink (Alphaware)" rating="1" useradded="no" rfid="Present" wireless="Present">
+                                    <description>An implanted version of the smartlink enhancement (p. 333).</description>
+                                    <gearcost text="0¥" value="0"></gearcost>
+                                    <availability text="" value="0" class=""></availability>
+                                    <matrix>
+                                        <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                                    </matrix>
+                                    <modifications></modifications>
+                                    <accessories></accessories>
+                                    <ammunition></ammunition>
+                                    <programs></programs>
+                                    <othergear></othergear>
+                                </item>
+                                <item name="Vision Enhancement (Alphaware)" rating="3" useradded="no" rfid="Present" wireless="Present">
+                                    <description>An implanted version of vision enhancement (p. 333).</description>
+                                    <gearcost text="0¥" value="0"></gearcost>
+                                    <availability text="" value="0" class=""></availability>
+                                    <matrix>
+                                        <matrixattribute name="Signal" text="3" base="3" modified="3"></matrixattribute>
+                                        <matrixattribute name="Response" text="3" base="3" modified="3"></matrixattribute>
+                                        <matrixattribute name="System" text="3" base="3" modified="3"></matrixattribute>
+                                        <matrixattribute name="Firewall" text="3" base="3" modified="3"></matrixattribute>
+                                    </matrix>
+                                    <modifications></modifications>
+                                    <accessories></accessories>
+                                    <ammunition></ammunition>
+                                    <programs></programs>
+                                    <othergear></othergear>
+                                </item>
+                                <item name="Vision Magnification, Optical" useradded="no" quantity="1">
+                                    <description>This zoom function magnifies vision by up to 50 times, allowing distant targets to be seen clearly. It is available as both an optical (ideal for spellcasting at distant targets) or electronic (with real-time image correction) enhancement. For rules on using vision magnification in ranged combat, see p. 150.</description>
+                                    <gearcost text="0¥" value="0"></gearcost>
+                                    <availability text="" value="0" class=""></availability>
+                                    <matrix>
+                                        <matrixattribute name="Signal" text="0" base="0" modified="0"></matrixattribute>
+                                        <matrixattribute name="Response" text="0" base="0" modified="0"></matrixattribute>
+                                        <matrixattribute name="System" text="0" base="0" modified="0"></matrixattribute>
+                                        <matrixattribute name="Firewall" text="0" base="0" modified="0"></matrixattribute>
+                                    </matrix>
+                                </item>
+                            </modifications>
+                            <accessories></accessories>
+                            <ammunition></ammunition>
+                            <programs></programs>
+                            <othergear></othergear>
+                        </item>
+                        <item name="Leviathan Technical Bulletproof kevlar bone lacing (Alphaware)" rating="1" useradded="no" quantity="1" rfid="Present" wireless="Present">
+                            <description>Similar to the bone lacing described on p. 333 of SR4, ceramic and kevlar bone lacing reinforce skeletal integrity. While ceramic bone lacing augments the bones with a sturdy, impact resistant poly-ceramic coating, kevlar bone lacing weaves a protective ballistic mesh around the individual's bones and joints. Ceramic bone lacing confers a +2 Body bonus for damage resistance tests and a +2 bonus to Impact armor. Kevlar bone lacing confers a +1 Body bonus for damage resistance tests and a +1 bonus to Ballistic armor. The bonuses of both types of bone lacing are cumulative with worn armor and cannot be detected by metal detectors. Characters with ceramic bone lacing inflict Physical damage with their unarmed blows, though kevlar bone lacing offers no such advantage.</description>
+                            <gearcost text="0¥" value="0"></gearcost>
+                            <availability text="" value="0" class=""></availability>
+                            <matrix>
+                                <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                            </matrix>
+                            <armorinfo ballistic="+1" impact="+0" acid="0" cold="0" electricity="0" falling="0" fire="0" radiation="0" laser="0" equipped="yes"></armorinfo>
+                            <modifications></modifications>
+                            <accessories></accessories>
+                            <ammunition></ammunition>
+                            <programs></programs>
+                            <othergear></othergear>
+                        </item>
+                        <item name="Leviathan Technical M302 customized cyber arm (Synthetic) (Alphaware)" rating="1" useradded="no" rfid="Present" wireless="Present">
+                            <description>In today's world of transplant-friendly bioware, the use of cyberlimbs is sometimes viewed as crude and outdated. On the other hand, they are cheap and easy to service and upgrade, so in the end they became even more popular for the less fortunate. Additionally, since cyberlimbs are capable of superior performance than natural ones and are compatible with a variety of specialized technologies, this kind of cyberware remains in high demand.
+
+Cyberskulls and - torsos are included in this category, though they are in fact shells rather than full replacements.
+
+When a particular limb is used for a test (such as leading an attack with your cyberarm), use the attribute for that limb (natural or cyber); in any other case, take the average value of all limbs involved in the task (round down). If a task requires the careful coordination of several limbs, use the value of the weakest limb. The attributes of partial limbs (including cyberhands and - feet) may be enhanced, but their attributes only apply for tests directly involving those limbs (such as a Strength Test when gripping something with an enhanced cyberhand). Cyberlimbs cannot hold any bioware, nor any cyber-implants that take up Essence rather than Capacity. Essence cost, Capacity, and other stats can be found on the Cyberlimb table (below).
+
+Cyberlimbs have other useful features. They also grant the user 1 extra damage box to her Physical Condition Monitor for each cyberlimb she possesses. They have Capacity, allowing the integration of cyberweapons and other cyber accessories. They can perform at superhuman levels with the right enhancements. Finally, cyberlimbs can be dangerous even if they don't possess cyberweapons. Their Unarmed Damage Value is (STR ÷ 2)P.</description>
+                            <gearcost text="13500¥" value="13500"></gearcost>
+                            <availability text="9" value="9" class=""></availability>
+                            <matrix>
+                                <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                            </matrix>
+                            <modifications>
+                                <item name="Cyberlimb Agility" rating="6" useradded="no">
+                                    <description>These limbs are tailored and customized to the intended user's frame and musculature. Such customized cyberlimbs also come with physical Attributes of 3, but are more versatile and expensive than standard models. Customized cyberlimbs function like standard limbs in most regards, but come with Body, Strength, and Agility attributes that may exceed the standard cyberlimb attribute rating of 3. They allow the user to raise their starting Body, Strength, and Agility attributes up to the character's natural attribute maximum (p. 68). However, each attribute point raised above 3 increases the limb's Availability by 1 point and adds 1,500¥ to the cost - though it does not take up any Capacity. Increases above the natural attribute maximum and up to the augmented maximum must be handled as cyberlimb enhancements, with the standard Capacity and nuyen costs (Cyberlimb Enhancements, p. 344). In all other stats customized cyberlimbs are identical to standard cyberlimbs (ie. Capacity limits, etc).</description>
+                                    <gearcost text="4500¥" value="4500"></gearcost>
+                                    <availability text="+3" value="3" class=""></availability>
+                                    <matrix>
+                                        <matrixattribute name="Signal" text="6" base="6" modified="6"></matrixattribute>
+                                        <matrixattribute name="Response" text="6" base="6" modified="6"></matrixattribute>
+                                        <matrixattribute name="System" text="6" base="6" modified="6"></matrixattribute>
+                                        <matrixattribute name="Firewall" text="6" base="6" modified="6"></matrixattribute>
+                                    </matrix>
+                                </item>
+                                <item name="Cyberlimb Body" rating="6" useradded="no">
+                                    <description>These limbs are tailored and customized to the intended user's frame and musculature. Such customized cyberlimbs also come with physical Attributes of 3, but are more versatile and expensive than standard models. Customized cyberlimbs function like standard limbs in most regards, but come with Body, Strength, and Agility attributes that may exceed the standard cyberlimb attribute rating of 3. They allow the user to raise their starting Body, Strength, and Agility attributes up to the character's natural attribute maximum (p. 68). However, each attribute point raised above 3 increases the limb's Availability by 1 point and adds 1,500¥ to the cost - though it does not take up any Capacity. Increases above the natural attribute maximum and up to the augmented maximum must be handled as cyberlimb enhancements, with the standard Capacity and nuyen costs (Cyberlimb Enhancements, p. 344). In all other stats customized cyberlimbs are identical to standard cyberlimbs (ie. Capacity limits, etc).</description>
+                                    <gearcost text="4500¥" value="4500"></gearcost>
+                                    <availability text="+3" value="3" class=""></availability>
+                                    <matrix>
+                                        <matrixattribute name="Signal" text="6" base="6" modified="6"></matrixattribute>
+                                        <matrixattribute name="Response" text="6" base="6" modified="6"></matrixattribute>
+                                        <matrixattribute name="System" text="6" base="6" modified="6"></matrixattribute>
+                                        <matrixattribute name="Firewall" text="6" base="6" modified="6"></matrixattribute>
+                                    </matrix>
+                                </item>
+                                <item name="Cyberlimb Strength" rating="6" useradded="no">
+                                    <description>These limbs are tailored and customized to the intended user's frame and musculature. Such customized cyberlimbs also come with physical Attributes of 3, but are more versatile and expensive than standard models. Customized cyberlimbs function like standard limbs in most regards, but come with Body, Strength, and Agility attributes that may exceed the standard cyberlimb attribute rating of 3. They allow the user to raise their starting Body, Strength, and Agility attributes up to the character's natural attribute maximum (p. 68). However, each attribute point raised above 3 increases the limb's Availability by 1 point and adds 1,500¥ to the cost - though it does not take up any Capacity. Increases above the natural attribute maximum and up to the augmented maximum must be handled as cyberlimb enhancements, with the standard Capacity and nuyen costs (Cyberlimb Enhancements, p. 344). In all other stats customized cyberlimbs are identical to standard cyberlimbs (ie. Capacity limits, etc).</description>
+                                    <gearcost text="4500¥" value="4500"></gearcost>
+                                    <availability text="+3" value="3" class=""></availability>
+                                    <matrix>
+                                        <matrixattribute name="Signal" text="6" base="6" modified="6"></matrixattribute>
+                                        <matrixattribute name="Response" text="6" base="6" modified="6"></matrixattribute>
+                                        <matrixattribute name="System" text="6" base="6" modified="6"></matrixattribute>
+                                        <matrixattribute name="Firewall" text="6" base="6" modified="6"></matrixattribute>
+                                    </matrix>
+                                </item>
+                                <item name="Enhanced Armor" rating="1" useradded="no">
+                                    <description>Cyberlimb enhancements use up the Capacity of the cyberlimb they enhance. There are four different types of enhancements available: Body, Agility, Strength, or Armor enhancements. Physical Attribute enhancements come in ratings equal to the Attribute bonus they provide.
+
+Armor enhancements installed on cyberlimbs are both Ballistic and Impact, and it is cumulative with all forms of worn armor.</description>
+                                    <gearcost text="0¥" value="0"></gearcost>
+                                    <availability text="" value="0" class=""></availability>
+                                    <matrix>
+                                        <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                                    </matrix>
+                                </item>
+                                <item name="Scanner System (Alphaware)" rating="4" useradded="no" rfid="Present" wireless="Present">
+                                    <description>Very popular with bodyguards and security personnel, this accessory installs a discreet internal magnetic anomaly detector (MAD) and processor (see Scanners, pp. 254 - 255, SR4) into a cyberlimb allowing the recipient to scan nearby (1 meter) individuals for concealed weapons and cyberware.</description>
+                                    <gearcost text="0¥" value="0"></gearcost>
+                                    <availability text="" value="0" class=""></availability>
+                                    <matrix>
+                                        <matrixattribute name="Signal" text="4" base="4" modified="4"></matrixattribute>
+                                        <matrixattribute name="Response" text="4" base="4" modified="4"></matrixattribute>
+                                        <matrixattribute name="System" text="4" base="4" modified="4"></matrixattribute>
+                                        <matrixattribute name="Firewall" text="4" base="4" modified="4"></matrixattribute>
+                                    </matrix>
+                                    <modifications></modifications>
+                                    <accessories></accessories>
+                                    <ammunition></ammunition>
+                                    <programs></programs>
+                                    <othergear></othergear>
+                                </item>
+                            </modifications>
+                            <accessories></accessories>
+                            <ammunition></ammunition>
+                            <programs></programs>
+                            <othergear>
+                                <item name="Shock Hand (Alphaware)" rating="1" useradded="no" quantity="1" rfid="Present" wireless="Present">
+                                    <description>Cyber melee weapons are the classic toys of razorboys and gillettes. They are available as cyberlimb upgrades, but are also in heavy use as standalone systems implanted into the user's natural hands. The shock hand features shock pads built into the knuckles or palm of the hand - these inflict a nasty shock to anything they are in contact with when activated. Shock hands deal Electricity damage (p. 163) and have 10 charges (each); when plugged in they recharge at a rate of one charge per 10 seconds.</description>
+                                    <gearcost text="0¥" value="0"></gearcost>
+                                    <availability text="" value="0" class=""></availability>
+                                    <matrix>
+                                        <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                        <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                                    </matrix>
+                                    <weaponinfo grouptext="Unarmed" dicepool="7" damagetext="6S(e)" damagevalue="6" damagetype="Stun" vsarmor="Impact Armor" ap="0" modestext="" isammunition="0" reach="" equipped="Main Hand">
+                                        <defense name="Shock Hand (Alphaware) Parry" normal="10" full="14"></defense>
+                                    </weaponinfo>
+                                    <modifications></modifications>
+                                    <accessories></accessories>
+                                    <ammunition>
+                                        <item name="Internal Battery" useradded="no" quantity="1">
+                                            <description>When plugged in, it recharges at a rate of one charge per 10 seconds.</description>
+                                            <gearcost text="0¥" value="0"></gearcost>
+                                            <availability text="" value="0" class=""></availability>
+                                            <matrix>
+                                                <matrixattribute name="Signal" text="0" base="0" modified="0"></matrixattribute>
+                                                <matrixattribute name="Response" text="0" base="0" modified="0"></matrixattribute>
+                                                <matrixattribute name="System" text="0" base="0" modified="0"></matrixattribute>
+                                                <matrixattribute name="Firewall" text="0" base="0" modified="0"></matrixattribute>
+                                            </matrix>
+                                            <weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="" vsarmor="Ballistic Armor" ap="0" modestext="" isammunition="1" recoilcomp="0" equipped="Main Hand">
+                                                <ranges text="0">
+                                                    <range name="Minimum" text="0m" value="0"></range>
+                                                    <range name="Short" text="0m" value="0"></range>
+                                                    <range name="Medium" text="0m" value="0"></range>
+                                                    <range name="Long" text="0m" value="0"></range>
+                                                    <range name="Extreme" text="0m" value="0"></range>
+                                                </ranges>
+                                            </weaponinfo>
+                                        </item>
+                                    </ammunition>
+                                    <programs></programs>
+                                    <othergear></othergear>
+                                </item>
+                            </othergear>
+                        </item>
+                    </cyberware>
+                    <bioware></bioware>
+                </augmentations>
+                <weapons>
+                    <item name="Attack of Will (vs. Spirits)" useradded="no" quantity="1" natural="yes">
+                        <description>An attack of will may only be conducted with a physical or astral melee attack - willpower simply doesn't work with ranged attacks. Sometimes you are better off trying to smack a spirit with a gun than attempting to shoot it. While an attack of will can damage a spirit in spite of its formidable resilience to non-magical attack, only the truly courageous, driven, or mad have enough force of personality to affect a spirit.
+
+When in melee with a spirit, a character may elect to make an attack of will rather than a normal melee strike. The character rolls his Banishing + Willpower (or just Willpower) as his dice pool, and his base Damage Value is (Charisma)P regardless of whether he is attacking with a spanner, combat axe, or his bare hands. Reach modifiers (attacker's or spirit's) do not apply to this test. The attack of will bypasses the spirit's Immunity to Normal Weapons and is otherwise resolved as a normal melee attack (see p. 156, SR4A). This form of attack is only effective against spirits.</description>
+                        <gearcost text="0¥" value="0"></gearcost>
+                        <availability text="" value="0" class=""></availability>
+                        <matrix>
+                            <matrixattribute name="Signal" text="0" base="0" modified="0"></matrixattribute>
+                            <matrixattribute name="Response" text="0" base="0" modified="0"></matrixattribute>
+                            <matrixattribute name="System" text="0" base="0" modified="0"></matrixattribute>
+                            <matrixattribute name="Firewall" text="0" base="0" modified="0"></matrixattribute>
+                        </matrix>
+                        <weaponinfo grouptext="" dicepool="3" damagetext="2P" damagevalue="2" damagetype="Physical" vsarmor="Impact Armor" ap="0" modestext="" isammunition="0" reach="" equipped="Main Hand">
+                            <defense name="Attack of Will (vs. Spirits) Parry" normal="3" full="3"></defense>
+                        </weaponinfo>
+                    </item>
+                    <item name="Beretta 101T" rating="1" quantity="1" size="Human/Elf/Ork Size" rfid="Present" wireless="Present">
+                        <description>This pistol is used as light sidearm by many security personnel, since it is very easy to maintain.</description>
+                        <gearcost text="496¥" value="496"></gearcost>
+                        <availability text="4R" value="4" class="Restricted"></availability>
+                        <matrix>
+                            <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                        </matrix>
+                        <weaponinfo grouptext="Pistols" dicepool="8" damagetext="4P" damagevalue="4" damagetype="Physical" vsarmor="Ballistic Armor" ap="0" modestext="SA" isammunition="0" recoilcomp="0" equipped="Main Hand">
+                            <ammunitionused text="12 (c)" count="12" bins="1" type="Clip"></ammunitionused>
+                            <mode>Semi-Automatic</mode>
+                            <ranges text="5/15/30/50">
+                                <range name="Minimum" text="0m" value="0"></range>
+                                <range name="Short" text="5m" value="5"></range>
+                                <range name="Medium" text="15m" value="15"></range>
+                                <range name="Long" text="30m" value="30"></range>
+                                <range name="Extreme" text="50m" value="50"></range>
+                            </ranges>
+                        </weaponinfo>
+                        <modifications>
+                            <item name="Smartgun System, Internal" rating="1" quantity="1" size="Human/Elf/Ork Size" rfid="Present" wireless="Present">
+                                <description>The smartgun system connects a firearm or projectile weapon directly to a user's smartlink (p. 333). It incorporates a laser range finder and a small camera, and keeps track of ammunition, heat buildup, and material stress. It allows a smartlinked character to mentally switch between gun modes, eject clips, and fire the gun without pulling the trigger. The camera allows for targeted shooting around corners, without exposing oneself to return fire.
+
+The system makes use of advanced calculation software, allowing the user to aim even weapons with a highly ballistic firing arc (like grenades) with tremendous precision over any distance. The smartgun system can also be accessed via wireless link, allowing for the gun to be remotely fired or to block the trigger (in case an opponent gets ahold of it). When used with a smartlink, it provides a +2 dice pool bonus on the ranged attack test.
+
+Retrofitting a firearm with an internal Smartgun system doubles the weapon's price. An external smartgun system can be attached to the top mount or underbarrel mount with an Armorer + Logic (4, 1 hour) Extended Test. The small camera can be equipped with vision enhancements (p. 333).</description>
+                                <gearcost text="200¥" value="200"></gearcost>
+                                <availability text="6R" value="6" class="Restricted"></availability>
+                                <matrix>
+                                    <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                    <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                    <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                    <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                                </matrix>
+                                <modifications></modifications>
+                                <accessories></accessories>
+                                <ammunition></ammunition>
+                                <programs></programs>
+                                <othergear></othergear>
+                            </item>
+                        </modifications>
+                        <accessories></accessories>
+                        <ammunition>
+                            <item name="Regular Ammo" quantity="48" rfid="Present">
+                                <description>Standard full metal jacket rounds for all kinds of uses (mostly killing).</description>
+                                <gearcost text="2¥" value="2"></gearcost>
+                                <availability text="2R" value="2" class="Restricted"></availability>
+                                <matrix>
+                                    <matrixattribute name="Signal" text="0" base="0" modified="0"></matrixattribute>
+                                    <matrixattribute name="Response" text="0" base="0" modified="0"></matrixattribute>
+                                    <matrixattribute name="System" text="0" base="0" modified="0"></matrixattribute>
+                                    <matrixattribute name="Firewall" text="0" base="0" modified="0"></matrixattribute>
+                                </matrix>
+                                <weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="" vsarmor="Ballistic Armor" ap="0" modestext="" isammunition="1" recoilcomp="0" equipped="Main Hand">
+                                    <ranges text="0">
+                                        <range name="Minimum" text="0m" value="0"></range>
+                                        <range name="Short" text="0m" value="0"></range>
+                                        <range name="Medium" text="0m" value="0"></range>
+                                        <range name="Long" text="0m" value="0"></range>
+                                        <range name="Extreme" text="0m" value="0"></range>
+                                    </ranges>
+                                </weaponinfo>
+                                <modifications></modifications>
+                                <accessories></accessories>
+                                <ammunition></ammunition>
+                                <programs></programs>
+                                <othergear></othergear>
+                            </item>
+                        </ammunition>
+                        <programs></programs>
+                        <othergear></othergear>
+                    </item>
+                    <item name="Colt M22A3" rating="1" quantity="1" size="Human/Elf/Ork Size" rfid="Present" wireless="Present">
+                        <description>Since its introduction in 2048, the M22 has been a very popular weapon due to the features it packs. The M22A3 has a special gas vent system, which is built into the barrel and provides 1 point of recoil compensation, as well as an integral top-mounted imaging scope and an underbarrel grenade launcher.</description>
+                        <gearcost text="4000¥" value="4000"></gearcost>
+                        <availability text="9R" value="9" class="Restricted"></availability>
+                        <matrix>
+                            <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                        </matrix>
+                        <weaponinfo grouptext="Assault Rifles" dicepool="8" damagetext="6P" damagevalue="6" damagetype="Physical" vsarmor="Ballistic Armor" ap="-1" modestext="SA/BF/BF-L/FA" isammunition="0" recoilcomp="1" equipped="Main Hand">
+                            <ammunitionused text="40 (c)" count="40" bins="1" type="Clip"></ammunitionused>
+                            <mode>Semi-Automatic</mode>
+                            <mode>Short Bursts</mode>
+                            <mode>Long Bursts</mode>
+                            <mode>Full-Auto</mode>
+                            <ranges text="50/150/350/550">
+                                <range name="Minimum" text="0m" value="0"></range>
+                                <range name="Short" text="50m" value="50"></range>
+                                <range name="Medium" text="150m" value="150"></range>
+                                <range name="Long" text="350m" value="350"></range>
+                                <range name="Extreme" text="550m" value="550"></range>
+                            </ranges>
+                        </weaponinfo>
+                        <modifications>
+                            <item name="Gas-Vent 1 System" useradded="no" quantity="1">
+                                <description>Gas-vent recoil compensation systems vent a weapon's barrel gases at a specific vector to counter barrel climb. Gasvent systems can be built into machine pistols, SMGs, assault rifles, and machine guns. Installing them takes up the barrel mount and requires an Armorer + Logic (8, 1 hour) Extended Test; once installed, they cannot be removed. Weapons already equipped with a built-in gas-vent system cannot be equipped with an additional gas-vent system.
+
+The gas-vent 2 system provides 2 points of recoil compensation; the gas-vent 3 system provides 3 points of recoil compensation.</description>
+                                <gearcost text="0¥" value="0"></gearcost>
+                                <availability text="" value="0" class=""></availability>
+                                <matrix>
+                                    <matrixattribute name="Signal" text="0" base="0" modified="0"></matrixattribute>
+                                    <matrixattribute name="Response" text="0" base="0" modified="0"></matrixattribute>
+                                    <matrixattribute name="System" text="0" base="0" modified="0"></matrixattribute>
+                                    <matrixattribute name="Firewall" text="0" base="0" modified="0"></matrixattribute>
+                                </matrix>
+                            </item>
+                            <item name="Grenade Launcher" useradded="no" quantity="1">
+                                <description>This weapon has an integral grenade launcher.</description>
+                                <gearcost text="0¥" value="0"></gearcost>
+                                <availability text="" value="0" class=""></availability>
+                                <matrix>
+                                    <matrixattribute name="Signal" text="0" base="0" modified="0"></matrixattribute>
+                                    <matrixattribute name="Response" text="0" base="0" modified="0"></matrixattribute>
+                                    <matrixattribute name="System" text="0" base="0" modified="0"></matrixattribute>
+                                    <matrixattribute name="Firewall" text="0" base="0" modified="0"></matrixattribute>
+                                </matrix>
+                            </item>
+                            <item name="Smartgun System, Internal" rating="1" quantity="1" size="Human/Elf/Ork Size" rfid="Present" wireless="Present">
+                                <description>The smartgun system connects a firearm or projectile weapon directly to a user's smartlink (p. 333). It incorporates a laser range finder and a small camera, and keeps track of ammunition, heat buildup, and material stress. It allows a smartlinked character to mentally switch between gun modes, eject clips, and fire the gun without pulling the trigger. The camera allows for targeted shooting around corners, without exposing oneself to return fire.
+
+The system makes use of advanced calculation software, allowing the user to aim even weapons with a highly ballistic firing arc (like grenades) with tremendous precision over any distance. The smartgun system can also be accessed via wireless link, allowing for the gun to be remotely fired or to block the trigger (in case an opponent gets ahold of it). When used with a smartlink, it provides a +2 dice pool bonus on the ranged attack test.
+
+Retrofitting a firearm with an internal Smartgun system doubles the weapon's price. An external smartgun system can be attached to the top mount or underbarrel mount with an Armorer + Logic (4, 1 hour) Extended Test. The small camera can be equipped with vision enhancements (p. 333).</description>
+                                <gearcost text="1600¥" value="1600"></gearcost>
+                                <availability text="6R" value="6" class="Restricted"></availability>
+                                <matrix>
+                                    <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                    <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                    <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                    <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                                </matrix>
+                                <modifications></modifications>
+                                <accessories></accessories>
+                                <ammunition></ammunition>
+                                <programs></programs>
+                                <othergear></othergear>
+                            </item>
+                        </modifications>
+                        <accessories>
+                            <item name="Imaging Scope" rating="1" useradded="no" quantity="1" size="Human/Elf/Ork Size" rfid="Present" wireless="Present">
+                                <description>These classic scopes are attached to the top mount; attaching or removing them takes only a Simple Action.
+
+Imaging scopes can be upgraded with any of the vision enhancements noted on p. 333.</description>
+                                <gearcost text="0¥" value="0"></gearcost>
+                                <availability text="" value="0" class=""></availability>
+                                <matrix>
+                                    <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                    <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                    <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                    <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                                </matrix>
+                                <modifications></modifications>
+                                <accessories></accessories>
+                                <ammunition></ammunition>
+                                <programs></programs>
+                                <othergear></othergear>
+                            </item>
+                        </accessories>
+                        <ammunition>
+                            <item name="Regular Ammo" quantity="400" rfid="Present">
+                                <description>Standard full metal jacket rounds for all kinds of uses (mostly killing).</description>
+                                <gearcost text="2¥" value="2"></gearcost>
+                                <availability text="2R" value="2" class="Restricted"></availability>
+                                <matrix>
+                                    <matrixattribute name="Signal" text="0" base="0" modified="0"></matrixattribute>
+                                    <matrixattribute name="Response" text="0" base="0" modified="0"></matrixattribute>
+                                    <matrixattribute name="System" text="0" base="0" modified="0"></matrixattribute>
+                                    <matrixattribute name="Firewall" text="0" base="0" modified="0"></matrixattribute>
+                                </matrix>
+                                <weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="" vsarmor="Ballistic Armor" ap="0" modestext="" isammunition="1" recoilcomp="0" equipped="Main Hand">
+                                    <ranges text="0">
+                                        <range name="Minimum" text="0m" value="0"></range>
+                                        <range name="Short" text="0m" value="0"></range>
+                                        <range name="Medium" text="0m" value="0"></range>
+                                        <range name="Long" text="0m" value="0"></range>
+                                        <range name="Extreme" text="0m" value="0"></range>
+                                    </ranges>
+                                </weaponinfo>
+                                <modifications></modifications>
+                                <accessories></accessories>
+                                <ammunition></ammunition>
+                                <programs></programs>
+                                <othergear></othergear>
+                            </item>
+                        </ammunition>
+                        <programs></programs>
+                        <othergear>
+                            <item name="Colt M22A3 Grenade Launcher" rating="1" useradded="no" quantity="1" size="Human/Elf/Ork Size" rfid="Present" wireless="Present">
+                                <description>Since its introduction in 2048, the M22 has been a very popular weapon due to the features it packs. The M22A3 has a special gas vent system, which is built into the barrel and provides 1 point of recoil compensation, as well as an integral top-mounted imaging scope and an underbarrel grenade launcher.</description>
+                                <gearcost text="0¥" value="0"></gearcost>
+                                <availability text="" value="0" class=""></availability>
+                                <matrix>
+                                    <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                                    <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                                    <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                                    <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                                </matrix>
+                                <weaponinfo grouptext="Grenade Launchers" dicepool="2" damagetext="" damagevalue="0" damagetype="" vsarmor="" ap="0" modestext="SS" isammunition="0" recoilcomp="0" equipped="Both Hands">
+                                    <ammunitionused text="6 (m)" count="6" bins="1" type="Internal Magazine"></ammunitionused>
+                                    <mode>Single Shot</mode>
+                                    <ranges text="5-50/100/150/500">
+                                        <range name="Minimum" text="5m" value="5"></range>
+                                        <range name="Short" text="50m" value="50"></range>
+                                        <range name="Medium" text="100m" value="100"></range>
+                                        <range name="Long" text="150m" value="150"></range>
+                                        <range name="Extreme" text="500m" value="500"></range>
+                                    </ranges>
+                                </weaponinfo>
+                                <modifications></modifications>
+                                <accessories></accessories>
+                                <ammunition></ammunition>
+                                <programs></programs>
+                                <othergear></othergear>
+                            </item>
+                        </othergear>
+                    </item>
+                    <item name="Colt M22A3 Grenade Launcher" rating="1" useradded="no" quantity="1" size="Human/Elf/Ork Size" rfid="Present" wireless="Present">
+                        <description>Since its introduction in 2048, the M22 has been a very popular weapon due to the features it packs. The M22A3 has a special gas vent system, which is built into the barrel and provides 1 point of recoil compensation, as well as an integral top-mounted imaging scope and an underbarrel grenade launcher.</description>
+                        <gearcost text="0¥" value="0"></gearcost>
+                        <availability text="" value="0" class=""></availability>
+                        <matrix>
+                            <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                        </matrix>
+                        <weaponinfo grouptext="Grenade Launchers" dicepool="2" damagetext="" damagevalue="0" damagetype="" vsarmor="" ap="0" modestext="SS" isammunition="0" recoilcomp="0" equipped="Both Hands">
+                            <ammunitionused text="6 (m)" count="6" bins="1" type="Internal Magazine"></ammunitionused>
+                            <mode>Single Shot</mode>
+                            <ranges text="5-50/100/150/500">
+                                <range name="Minimum" text="5m" value="5"></range>
+                                <range name="Short" text="50m" value="50"></range>
+                                <range name="Medium" text="100m" value="100"></range>
+                                <range name="Long" text="150m" value="150"></range>
+                                <range name="Extreme" text="500m" value="500"></range>
+                            </ranges>
+                        </weaponinfo>
+                        <modifications></modifications>
+                        <accessories></accessories>
+                        <ammunition></ammunition>
+                        <programs></programs>
+                        <othergear></othergear>
+                    </item>
+                    <item name="EMP Grenade Minigrenade" rating="1" quantity="1" rfid="Present" wireless="Present">
+                        <description>This weapon does not detonate like a normal grenade, instead sending out a powerful electromagnetic pulse designed to create damaging current and voltage surges in electronic items. Th ough most electronics in 2070 are optical based, an EMP blast can still affect power supplies, anything linked to an antenna or electric cable, or older/cheaper devices with integrated circuits, transistors, inductors, or silicon chips. Most cyberware is also unaffected; RFID chips, however, are extremely vulnerable to EMP attacks.
+
+The gamemaster determines what devices are affected. Each affected device within a 10-meter radius makes a Device Rating x 2 (3) Test; reduce the threshold by 1 for 2 meters outside of that radius. Items that fail the test burn out, have their data erased, and may even catch on fire or explode from the power surge. At the gamemaster's discretion, even optical devices like commlinks will lose 3 points of Signal rating as their antennae are affected.</description>
+                        <gearcost text="500¥" value="500"></gearcost>
+                        <availability text="16F" value="16" class="Forbidden"></availability>
+                        <matrix>
+                            <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                        </matrix>
+                        <weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="" vsarmor="" ap="0" modestext="" isammunition="1" recoilcomp="0" equipped="Main Hand">
+                            <ranges text="0">
+                                <range name="Minimum" text="0m" value="0"></range>
+                                <range name="Short" text="0m" value="0"></range>
+                                <range name="Medium" text="0m" value="0"></range>
+                                <range name="Long" text="0m" value="0"></range>
+                                <range name="Extreme" text="0m" value="0"></range>
+                            </ranges>
+                        </weaponinfo>
+                        <modifications></modifications>
+                        <accessories></accessories>
+                        <ammunition></ammunition>
+                        <programs></programs>
+                        <othergear></othergear>
+                    </item>
+                    <item name="Flash-Bang Minigrenade" rating="1" quantity="2" rfid="Present" wireless="Present">
+                        <description>Upon detonation, flash-bang grenades spread a metallic powder out over the area that ignites in contact with the oxygen in the atmosphere, creating a loud, bright, shocking blast distributed equally over a radius of 10 meters.</description>
+                        <gearcost text="30¥" value="30"></gearcost>
+                        <availability text="6R" value="6" class="Restricted"></availability>
+                        <matrix>
+                            <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                        </matrix>
+                        <weaponinfo grouptext="" dicepool="" damagetext="6S, 10m R" damagevalue="6" damagetype="Stun" vsarmor="Impact Armor" ap="-3" modestext="" isammunition="1" recoilcomp="0" equipped="Main Hand">
+                            <ranges text="0">
+                                <range name="Minimum" text="0m" value="0"></range>
+                                <range name="Short" text="0m" value="0"></range>
+                                <range name="Medium" text="0m" value="0"></range>
+                                <range name="Long" text="0m" value="0"></range>
+                                <range name="Extreme" text="0m" value="0"></range>
+                            </ranges>
+                        </weaponinfo>
+                        <modifications></modifications>
+                        <accessories></accessories>
+                        <ammunition></ammunition>
+                        <programs></programs>
+                        <othergear></othergear>
+                    </item>
+                    <item name="Fragmentation Minigrenade" rating="1" quantity="2" rfid="Present" wireless="Present">
+                        <description>These are designed to spread a cloud of deadly shrapnel over a large area, seriously injuring soft targets. Their damage value reduces by -1 per meter from the point of the explosion's origin.</description>
+                        <gearcost text="35¥" value="35"></gearcost>
+                        <availability text="10F" value="10" class="Forbidden"></availability>
+                        <matrix>
+                            <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                        </matrix>
+                        <weaponinfo grouptext="" dicepool="" damagetext="12P(f), -1/m" damagevalue="12" damagetype="Physical" vsarmor="Impact Armor" ap="5" modestext="" isammunition="1" recoilcomp="0" equipped="Main Hand">
+                            <ranges text="0">
+                                <range name="Minimum" text="0m" value="0"></range>
+                                <range name="Short" text="0m" value="0"></range>
+                                <range name="Medium" text="0m" value="0"></range>
+                                <range name="Long" text="0m" value="0"></range>
+                                <range name="Extreme" text="0m" value="0"></range>
+                            </ranges>
+                        </weaponinfo>
+                        <modifications></modifications>
+                        <accessories></accessories>
+                        <ammunition></ammunition>
+                        <programs></programs>
+                        <othergear></othergear>
+                    </item>
+                    <item name="Incendiary Minigrenade" rating="1" quantity="1" rfid="Present" wireless="Present">
+                        <description>Incendiary grenades do not explode, but instead start to burn, generating intense heat and spewing flames and burning sparks within a 10-meter radius. Anything flammable within this radius may catch on fire at the gamemaster's discretion (see Fire Damage, p. 155, SR4). Incendiary grenades will continue to spark and burn for 10 Combat Turns. The burning grenade and its sparks negate any visibility modifiers for darkness in a 30-meter radius, but also impose the Glare visibility modifier (see p. 140, SR4) to anyone looking in its direction (flare compensation eliminates the latter modifier). Anyone touching or moving within 1 meter of a burning incendiary grenade must resist a DV of 4P Fire Damage (see p. 155, SR4).</description>
+                        <gearcost text="50¥" value="50"></gearcost>
+                        <availability text="8R" value="8" class="Restricted"></availability>
+                        <matrix>
+                            <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                        </matrix>
+                        <weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="" vsarmor="Impact Armor" ap="0" modestext="" isammunition="1" recoilcomp="0" equipped="Main Hand">
+                            <ranges text="0">
+                                <range name="Minimum" text="0m" value="0"></range>
+                                <range name="Short" text="0m" value="0"></range>
+                                <range name="Medium" text="0m" value="0"></range>
+                                <range name="Long" text="0m" value="0"></range>
+                                <range name="Extreme" text="0m" value="0"></range>
+                            </ranges>
+                        </weaponinfo>
+                        <modifications></modifications>
+                        <accessories></accessories>
+                        <ammunition></ammunition>
+                        <programs></programs>
+                        <othergear></othergear>
+                    </item>
+                    <item name="Shock Hand (Alphaware)" rating="1" useradded="no" quantity="1" rfid="Present" wireless="Present">
+                        <description>Cyber melee weapons are the classic toys of razorboys and gillettes. They are available as cyberlimb upgrades, but are also in heavy use as standalone systems implanted into the user's natural hands. The shock hand features shock pads built into the knuckles or palm of the hand - these inflict a nasty shock to anything they are in contact with when activated. Shock hands deal Electricity damage (p. 163) and have 10 charges (each); when plugged in they recharge at a rate of one charge per 10 seconds.</description>
+                        <gearcost text="0¥" value="0"></gearcost>
+                        <availability text="" value="0" class=""></availability>
+                        <matrix>
+                            <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                        </matrix>
+                        <weaponinfo grouptext="Unarmed" dicepool="7" damagetext="6S(e)" damagevalue="6" damagetype="Stun" vsarmor="Impact Armor" ap="0" modestext="" isammunition="0" reach="" equipped="Main Hand">
+                            <defense name="Shock Hand (Alphaware) Parry" normal="10" full="14"></defense>
+                        </weaponinfo>
+                        <modifications></modifications>
+                        <accessories></accessories>
+                        <ammunition>
+                            <item name="Internal Battery" useradded="no" quantity="1">
+                                <description>When plugged in, it recharges at a rate of one charge per 10 seconds.</description>
+                                <gearcost text="0¥" value="0"></gearcost>
+                                <availability text="" value="0" class=""></availability>
+                                <matrix>
+                                    <matrixattribute name="Signal" text="0" base="0" modified="0"></matrixattribute>
+                                    <matrixattribute name="Response" text="0" base="0" modified="0"></matrixattribute>
+                                    <matrixattribute name="System" text="0" base="0" modified="0"></matrixattribute>
+                                    <matrixattribute name="Firewall" text="0" base="0" modified="0"></matrixattribute>
+                                </matrix>
+                                <weaponinfo grouptext="" dicepool="" damagetext="" damagevalue="0" damagetype="" vsarmor="Ballistic Armor" ap="0" modestext="" isammunition="1" recoilcomp="0" equipped="Main Hand">
+                                    <ranges text="0">
+                                        <range name="Minimum" text="0m" value="0"></range>
+                                        <range name="Short" text="0m" value="0"></range>
+                                        <range name="Medium" text="0m" value="0"></range>
+                                        <range name="Long" text="0m" value="0"></range>
+                                        <range name="Extreme" text="0m" value="0"></range>
+                                    </ranges>
+                                </weaponinfo>
+                            </item>
+                        </ammunition>
+                        <programs></programs>
+                        <othergear></othergear>
+                    </item>
+                    <item name="Unarmed Strike" useradded="no" quantity="1" natural="yes">
+                        <description></description>
+                        <gearcost text="0¥" value="0"></gearcost>
+                        <availability text="" value="0" class=""></availability>
+                        <matrix>
+                            <matrixattribute name="Signal" text="0" base="0" modified="0"></matrixattribute>
+                            <matrixattribute name="Response" text="0" base="0" modified="0"></matrixattribute>
+                            <matrixattribute name="System" text="0" base="0" modified="0"></matrixattribute>
+                            <matrixattribute name="Firewall" text="0" base="0" modified="0"></matrixattribute>
+                        </matrix>
+                        <weaponinfo grouptext="Unarmed" dicepool="7" damagetext="2S" damagevalue="2" damagetype="Stun" vsarmor="Impact Armor" ap="0" modestext="" isammunition="0" reach="" equipped="Main Hand">
+                            <defense name="Unarmed Strike Parry" normal="10" full="14"></defense>
+                        </weaponinfo>
+                    </item>
+                </weapons>
+                <armor>
+                    <item name="Camouflage Suit" rating="1" quantity="1" rfid="Present" wireless="Present">
+                        <description>A full body suit with computer-designed environmental-pattern facsimiles. All have reversible day/night patterns.
+
+When worn in an appropriate environment, the suit inflicts a -2 Perception Test dice pool modifier to spot the wearer (if worn in an inappropriate environment, it incurs a +2 bonus instead). Also armored for additional protection.</description>
+                        <gearcost text="1200¥" value="1200"></gearcost>
+                        <availability text="4" value="4" class=""></availability>
+                        <matrix>
+                            <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                        </matrix>
+                        <armorinfo ballistic="8" impact="6" acid="0" cold="0" electricity="0" falling="0" fire="0" radiation="0" laser="0" equipped="yes"></armorinfo>
+                        <modifications></modifications>
+                        <accessories></accessories>
+                        <ammunition></ammunition>
+                        <programs></programs>
+                        <othergear></othergear>
+                    </item>
+                    <item name="Leviathan Technical Bulletproof kevlar bone lacing (Alphaware)" rating="1" useradded="no" quantity="1" rfid="Present" wireless="Present">
+                        <description>Similar to the bone lacing described on p. 333 of SR4, ceramic and kevlar bone lacing reinforce skeletal integrity. While ceramic bone lacing augments the bones with a sturdy, impact resistant poly-ceramic coating, kevlar bone lacing weaves a protective ballistic mesh around the individual's bones and joints. Ceramic bone lacing confers a +2 Body bonus for damage resistance tests and a +2 bonus to Impact armor. Kevlar bone lacing confers a +1 Body bonus for damage resistance tests and a +1 bonus to Ballistic armor. The bonuses of both types of bone lacing are cumulative with worn armor and cannot be detected by metal detectors. Characters with ceramic bone lacing inflict Physical damage with their unarmed blows, though kevlar bone lacing offers no such advantage.</description>
+                        <gearcost text="0¥" value="0"></gearcost>
+                        <availability text="" value="0" class=""></availability>
+                        <matrix>
+                            <matrixattribute name="Signal" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Response" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="System" text="1" base="1" modified="1"></matrixattribute>
+                            <matrixattribute name="Firewall" text="1" base="1" modified="1"></matrixattribute>
+                        </matrix>
+                        <armorinfo ballistic="+1" impact="+0" acid="0" cold="0" electricity="0" falling="0" fire="0" radiation="0" laser="0" equipped="yes"></armorinfo>
+                        <modifications></modifications>
+                        <accessories></accessories>
+                        <ammunition></ammunition>
+                        <programs></programs>
+                        <othergear></othergear>
+                    </item>
+                </armor>
+                <equipment></equipment>
+            </gear>
+            <identities></identities>
+            <contacts></contacts>
+            <ammotrackers>
+                <ammotracker name="Beretta 101T" text="Regular Ammo x12"></ammotracker>
+                <ammotracker name="Colt M22A3" text="Regular Ammo x40"></ammotracker>
+                <ammotracker name="Colt M22A3 Grenade Launcher" text="unloaded"></ammotracker>
+                <ammotracker name="Shock Hand (Alphaware)" text="Internal Battery x10"></ammotracker>
+            </ammotrackers>
+            <trackers>
+                <tracker name="- Independent -" text="0/0" used="0" left="0" min="0" max="0"></tracker>
+                <tracker name="Dropped to Ground" text="0/0" used="0" left="0" min="0" max="0"></tracker>
+                <tracker name="Edge Pool" text="0/2" used="0" left="2" min="0" max="2"></tracker>
+                <tracker name="EMP Grenade Minigrenade" text="1/1" used="1" left="-1" min="0" max="1"></tracker>
+                <tracker name="Flash-Bang Minigrenade" text="2/2" used="2" left="-2" min="0" max="2"></tracker>
+                <tracker name="Fragmentation Minigrenade" text="2/2" used="2" left="-2" min="0" max="2"></tracker>
+                <tracker name="Incendiary Minigrenade" text="1/1" used="1" left="-1" min="0" max="1"></tracker>
+                <tracker name="Mundane" text="0/0" used="0" left="0" min="0" max="0"></tracker>
+            </trackers>
+            <conditionmonitors totalpenalty="0">
+                <conditionmonitor name="Group Members" boxes="0" penalty="0"></conditionmonitor>
+                <conditionmonitor name="Physical Damage Track" boxes="12" penalty="0"></conditionmonitor>
+                <conditionmonitor name="Stun Damage Track" boxes="10" penalty="0"></conditionmonitor>
+            </conditionmonitors>
+            <journals>
+                <journal name="Title" gamedate="0" realdate="20151006" karma="0" cash="0" streetcred="0" notoriety="0" awareness="0">
+                    <description></description>
+                </journal>
+            </journals>
+            <images>
+                <image filename="Island_Guard-image001.jpg"></image>
+            </images>
+            <validation>
+                <report></report>
+            </validation>
+            <settings summary="Core Rulebooks: Arsenal, Augmentation, Runner's Companion, Street Magic, Unwired; Supplements: Runner's Toolkit Contacts, Running Wild; E-books: Aetherology, Bullets &amp; Bandages, Deadly Waves, Digital Grimoire, Euro War Antiques, Gun Heaven, Gun Heaven 2, Gun Heaven 3, Magical Societies, MilSpec Tech, MilSpec Tech 2, Nightfire Presents, Parabotany, Parageology, Parazoology, Safehouses, This Old Drone, Unfriendly Skies, Used Car Lot, Way of the Adept, Way of the Samurai; Enhanced Fiction: Sail Away, Sweet Sister, The Vladivostok Gauntlet; Character Generation Method: Build Point System; Optional Rules -&gt; Arsenal Optional Rules: Enforce Armor Suit Capacity, Enforce Maximum Armor Modifications, Strength Provides Recoil Comp; Optional Rules -&gt; Augmentation Optional Rules: Use Essence Holes; Optional Rules -&gt; Runner's Companion Optional Rules: Alternate Infected, Use Factions; Output Options: Include Vehicle Statblocks on Sheet"></settings>
+            <npc>
+                <basics></basics>
+                <tactics></tactics>
+                <ecology></ecology>
+                <additional></additional>
+            </npc>
+            <minions></minions>
+        </character>
+    </public>
+</document>
