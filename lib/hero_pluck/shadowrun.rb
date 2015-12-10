@@ -4,6 +4,10 @@ module Parsers
     def initialize(document)
       @doc = document
     end
+
+    def to_json
+        
+    end
   end
 end
 

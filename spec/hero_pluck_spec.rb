@@ -1,5 +1,4 @@
-require 'minitest/autorun'
-require 'minitest-spec'
+require 'spec_helper'
 require 'hero_pluck'
 require 'hero_pluck/shadowrun'
 describe HeroPluck do
